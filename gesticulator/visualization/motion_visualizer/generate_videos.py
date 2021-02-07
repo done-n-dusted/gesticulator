@@ -5,9 +5,9 @@ from os import path
 
 # ToDo 1: set path to this folder for importing PyMo properly
 
-from motion_visualizer.bvh2npy import convert_bvh2npy
-from motion_visualizer.model_animator import create_video
-from motion_visualizer.convert2bvh import write_bvh
+from bvh2npy import convert_bvh2npy
+from model_animator import create_video
+from convert2bvh import write_bvh
 
 from pymo.writers import *
 
